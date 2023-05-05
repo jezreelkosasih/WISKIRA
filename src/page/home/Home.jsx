@@ -1,16 +1,11 @@
-import "./home.css";
-
+import Section1 from "./Section1";
+import Section2 from "./Section2";
 const Home = () => {
   return (
-    <>
-      <div className="Home">
-        <div className="bg1">
-          <div className="circle3"></div>
-          <div className="circle1"></div>
-          <div className="circle2"></div>
-        </div>
-      </div>
-    </>
+    <div className="Home">
+      <Section1 />
+      <Section2 />
+    </div>
   );
 };
 
