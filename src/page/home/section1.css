@@ -1,0 +1,131 @@
+.Home {
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 10;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-right {
+  top: 0px;
+  right: 0px;
+}
+
+.section1 {
+  overflow: hidden;
+  position: relative;
+  height: 80vh;
+}
+
+.Home .bg1 {
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  background: linear-gradient(45deg, #6cbdaa, #8bd6ea);
+}
+
+.Home .bg1 .circle1 {
+  position: absolute;
+  filter: blur(5rem);
+  top: -10%;
+  left: -10%;
+  width: 80%;
+  height: 50%;
+  background: radial-gradient(at top left, #7083bc 60%, transparent 80%);
+}
+
+.Home .bg1 .circle2 {
+  position: absolute;
+  filter: blur(5rem);
+  position: absolute;
+  left: 50%;
+  right: -25.21%;
+
+  bottom: -45.24%;
+  border-radius: 100%;
+  width: 80%;
+  height: 100%;
+  background: radial-gradient(#005683 50%, transparent 100%);
+}
+
+.Home .bg1 .circle3 {
+  position: absolute;
+  filter: blur(5rem);
+  left: -8.49%;
+  right: 42.14%;
+  top: 34.04%;
+  bottom: -19.94%;
+  width: 80%;
+  height: 90%;
+  border-radius: 100%;
+  background: radial-gradient(circle at center, #6cbdaa 80%, transparent 80%);
+
+  /* background: radial-gradient(circle at center, #005683 40%, transparent 80%); */
+}
+
+.ombakAtas {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  right: 0px;
+}
+
+.box-content1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoPutih {
+  width: 80vw;
+}
+
+.taglinePutih {
+  width: 80vw;
+}
+
+@media only screen and (min-width: 768px) {
+  /* section 1 bg dan logo OMB */
+
+  .section1 {
+    min-height: 115vh;
+  }
+  .Home .bg1 {
+    height: 100vh !important;
+  }
+
+  .logoPutih {
+    width: 25vw;
+  }
+
+  .taglinePutih {
+    margin-top: 6%;
+    width: 35vw;
+  }
+
+  .Home .bg1 .circle1 {
+    filter: blur(10rem);
+  }
+
+  .Home .bg1 .circle2 {
+    filter: blur(10rem);
+  }
+
+  .Home .bg1 .circle3 {
+    filter: blur(10rem);
+  }
+}
