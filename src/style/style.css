@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.adsSection {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+.adsFlex {
+    display:flex;
+    justify-content: start;
+    width:80%;
+    height:40vh;
+    gap:5vh;
+
+}
+.adsFlex img {
+    width:80vh;
+    height:40vh;
+    border-radius:20px;
+}
+.adsFlex div {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.makananSection {
+    text-align:left;
+    display:grid;
+    gap:5vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+}
+.makananSection img{
+   width:18vw;
+   height :30vh;
+   /* gap:5vw; */
+}.makananSection div {
+    background-color: gray;
+}
